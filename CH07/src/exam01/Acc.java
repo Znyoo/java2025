@@ -1,10 +1,15 @@
 package exam01;
 
 public class Acc {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	int bal;
+	
+	Acc(int bal)
+	{
+		this.bal = bal;
 	}
-
+	
+	void ShowBal()
+	{
+		System.out.println("Acc bal : " + bal);
+	}
 }
